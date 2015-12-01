@@ -1,0 +1,30 @@
+{
+  "name": "es6-prototyping-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate for rapid es6 prototyping",
+  "main": "dist/main.js",
+  "author": "Benjamin Matuszewski",
+  "license": "ISC",
+  "scripts": {
+    "transpile": "./bin/scripts --transpile",
+    "prebundle": "npm run transpile",
+    "bundle": "./bin/scripts --bundle",
+    "watch": "./bin/scripts --watch",
+    "serve": "./bin/scripts --serve"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.8.34",
+    "motion-input": "collective-soundworks/motion-input",
+    "waves-audio": "wavesjs/audio"
+  },
+  "devDependencies": {
+    "babel": "^5.8.34",
+    "browserify": "^12.0.1",
+    "connect": "^3.3.5",
+    "fs-extra": "^0.16.3",
+    "node-watch": "^0.3.4",
+    "portfinder": "^0.4.0",
+    "serve-favicon": "^2.2.0",
+    "serve-static": "^1.9.2"
+  }
+}

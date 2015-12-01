@@ -1,0 +1,17 @@
+html {
+  font-size: 62.5%;
+  font-family: arial;
+}
+
+body {
+  margin: 0;
+}
+
+/* example */
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 10px;
+  color: steelblue;
+}
